@@ -1,0 +1,53 @@
+/* Photo Gallery Stylesheet */
+
+/* === BASE STYLES === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+/* === HEADER === */
+
+
+/* === GALLERY GRID === */
+.gallery {
+  /* Use flexbox or grid to create layout */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* gap: 20px; */
+}
+
+
+/* === GALLERY ITEMS === */
+.gallery-item {
+  /* Style individual items */
+  /* Consider adding hover effects */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  /* Style captions */
+}
+
+
+/* === FOOTER === */
+
+
+/* TIP: Add hover effects like scale or shadow */
+/* .gallery-item:hover {
+     transform: scale(1.05);
+     transition: transform 0.3s;
+   }
+*/

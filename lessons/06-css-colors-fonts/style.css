@@ -1,0 +1,59 @@
+/* Lesson 6: CSS Colors and Fonts */
+
+/* TODO: Set up your color scheme */
+/* Choose 3-5 colors that work well together */
+/* Use them consistently throughout */
+
+
+/* TODO: Style the body */
+/* - Set background color */
+/* - Set text color */
+/* - Set font-family (include your Google Font!) */
+/* - Set font-size for base text (16-18px) */
+/* - Set line-height for readability (1.5-1.8) */
+
+
+/* TODO: Style h1 */
+/* - Larger font-size */
+/* - Different color from body text */
+/* - Maybe use your custom font */
+/* - Good margin for spacing */
+
+
+/* TODO: Style h2 */
+/* - Smaller than h1 but larger than body */
+/* - Consistent color scheme */
+
+
+/* TODO: Create a .intro class for intro paragraphs */
+/* - Slightly larger font-size */
+/* - Maybe different color */
+/* - Stand out from regular paragraphs */
+
+
+/* TODO: Style regular paragraphs */
+/* - Readable font-size */
+/* - Good line-height */
+/* - Margin for spacing */
+
+
+/* TODO: Create a .quote or .callout class */
+/* - Background color */
+/* - Padding */
+/* - Border or border-left for accent */
+/* - Different text styling */
+
+
+/* TODO: Style links */
+/* - Color that fits your scheme */
+/* - Hover effect (use :hover pseudo-class) */
+/* - Remove underline or keep it? */
+
+
+/* EXPERIMENT with: */
+/* - Text shadows */
+/* - Letter spacing */
+/* - Different font weights */
+/* - RGBA for transparency */
+/* - Gradient backgrounds (research linear-gradient) */
+

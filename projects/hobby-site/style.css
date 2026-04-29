@@ -1,0 +1,35 @@
+/* Hobby Site Stylesheet */
+
+/* === BASE STYLES === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* === HEADER === */
+
+
+/* === SECTIONS === */
+section {
+  padding: 40px 20px;
+}
+
+
+/* === GALLERY === */
+/* Consider flexbox for image layout */
+
+
+/* === FOOTER === */
+
+
+/* Add styles that match your hobby's vibe! */
+/* Sports? Bold, energetic colors */
+/* Books? Elegant, literary feel */
+/* Gaming? Modern, tech-inspired */
+/* Nature? Earthy, calming tones */

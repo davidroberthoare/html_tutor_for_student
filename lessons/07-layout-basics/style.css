@@ -1,0 +1,79 @@
+/* Lesson 7: Layout Basics */
+
+/* TODO: Reset some defaults */
+body {
+  margin: 0;
+  /* Add font-family and other base styles */
+}
+
+
+/* TODO: Style the header */
+/* Give it a background color and padding */
+
+
+/* TODO: Style the nav element */
+/* Use display: flex to layout items horizontally */
+/* justify-content: space-between or space-around? */
+/* align-items to vertically center */
+
+
+/* TODO: Style nav links */
+/* Remove underline, add padding, add hover effect */
+
+
+/* TODO: Style the main element */
+/* Add padding or max-width to constrain content */
+/* Maybe center it with margin: 0 auto? */
+
+
+/* TODO: Style .flex-container */
+/* Use display: flex */
+/* Add gap between items */
+/* Choose flex-direction (row or column?) */
+
+
+/* TODO: Style the items inside flex-container */
+/* Give them flex: 1 to share space evenly? */
+/* Or fixed width? */
+/* Add padding, border, background? */
+
+
+/* TODO: Style the footer */
+/* Maybe use flexbox to center content */
+/* background color, padding */
+/* Could use position: relative or static */
+
+
+/* CHALLENGES TO TRY: */
+
+/* 1. Centered hero section */
+/* .hero {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 400px;
+   }
+*/
+
+/* 2. Three column layout */
+/* .columns {
+     display: flex;
+     gap: 20px;
+   }
+   .column {
+     flex: 1;
+   }
+*/
+
+/* 3. Sticky header (stays at top when scrolling) */
+/* header {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 100;
+   }
+   body {
+     padding-top: 60px; (to account for fixed header)
+   }
+*/
+

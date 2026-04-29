@@ -1,0 +1,62 @@
+/* Blog Stylesheet */
+
+/* === BASE STYLES === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif; /* Serif fonts good for blogs */
+  line-height: 1.8; /* More line height for readability */
+  color: #333;
+  background: #fafafa;
+}
+
+/* === HEADER === */
+
+
+/* === CONTAINER === */
+.container {
+  max-width: 800px; /* Limit line length for readability */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* === BLOG POSTS === */
+.post {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  /* Consider adding border or shadow */
+}
+
+.post h2 {
+  /* Style post titles */
+}
+
+.post-meta {
+  /* Style the date/author line */
+  /* Maybe smaller, gray text */
+}
+
+
+/* === SIDEBAR === */
+/* .sidebar {
+     Optional if you want a two-column layout
+     Use flexbox on .container to place side-by-side
+   }
+*/
+
+
+/* === FOOTER === */
+
+
+/* Focus on READABILITY:
+   - Comfortable line length (50-75 characters)
+   - Good line height (1.6-1.8)
+   - Sufficient font size (16-18px)
+   - Clear hierarchy
+*/

@@ -1,0 +1,39 @@
+/* Lesson 5: CSS Box Model */
+
+/* TODO: Style the body */
+/* Add some padding and a background color */
+
+
+/* TODO: Style all h1 elements */
+/* Add some margin-bottom for spacing */
+
+
+/* TODO: Create the .card class */
+/* This should demonstrate the full box model:
+   - width or max-width
+   - padding (inside spacing)
+   - border
+   - margin (outside spacing - space between cards)
+   - maybe border-radius for rounded corners?
+*/
+
+
+/* TODO: Create the .highlight class */
+/* Use different padding and margin than cards */
+/* Try a different border style (dashed? dotted?) */
+
+
+/* TODO: Style the h2 inside cards */
+/* Maybe different color and margin-top: 0 so it sits nicely */
+
+
+/* TODO: Style paragraphs inside cards */
+/* Set margin-bottom: 0 so the padding controls spacing */
+
+
+/* EXPERIMENT: Try these and see what happens */
+/* - Negative margins */
+/* - Very large padding */
+/* - Different border styles on each side */
+/* - box-sizing: border-box (research this!) */
+
