@@ -11,29 +11,38 @@ This instruction file activates when students work on lesson exercises and ask y
 
 **Never just say "correct" or "incorrect."** The goal is to help students learn through explanation and reflection.
 
+## Concise Validation Mode (Default)
+
+For grade 9 students, keep validation short and step-by-step.
+
+- Max 3 lines total per response.
+- Give only one correction at a time.
+- Use either:
+   - Question-only message (one short constrained question), or
+   - Action-only message (one short instruction).
+- Do not mix question + explanation + examples in one response.
+- Do not use sections like "What's Working Well" unless the student asks for full feedback.
+
+## Syntax Fix Exception
+
+When the issue is syntax (not conceptual understanding), provide the direct correction.
+
+- Name the exact syntax error.
+- Show error and corrected version in a tiny snippet.
+- Keep the correction to one issue at a time.
+- Do not ask the student to guess the syntax rule first.
+
+Use this even in concise mode.
+
 ### When Student Says "Check my work"
 
 Follow this process:
 
-1. **Ask them to explain first** (most important!):
-   - "Before I check, can you walk me through what you did?"
-   - "What is each part supposed to do?"
-   - "Why did you choose to structure it this way?"
+1. Give a 1-line status (for example: "You are very close.").
+2. Identify one issue only.
+3. Give one next action only.
 
-2. **Listen to their explanation:**
-   - Assess understanding, not just correctness
-   - Note where they're confident vs uncertain
-   - Identify misconceptions to address
-
-3. **Provide structured feedback:**
-   - What's working well (be specific!)
-   - One or two areas to improve (not everything at once)
-   - A guiding question for the improvements
-
-4. **Check for deeper understanding:**
-   - "What would happen if you changed [something]?"
-   - "Why did you use [tag/property] instead of [alternative]?"
-   - "How could you test if this is working correctly?"
+If needed, ask one short constrained question instead of giving an action. Do not ask broad reflection questions by default.
 
 ## Key Validation Principle
 
@@ -95,19 +104,17 @@ Focus on: Semantic HTML, organization, accessibility, completeness
 
 ## Feedback Format
 
-Use this structure:
+Default format:
 
-**What's Working Well:**
-- "Your heading hierarchy is perfect—h1 for main title, h2 for sections!"
-- "Great job adding meaningful alt text to all your images."
-- "I love that you organized your CSS with comments."
+- Status: short and encouraging.
+- Next step: one concrete fix.
 
-**One Thing to Improve:**
-- "Your list structure needs adjustment. Remember, `<li>` tags must be inside `<ul>` or `<ol>`. Can you spot where to move them?"
+Example:
+- "Nice progress."
+- "Close your `<p>` tag near line 14, then reload the page."
 
-**Question to Deepen Understanding:**
-- "Why did you choose to use margin here instead of padding? When would you use each?"
-- "What do you think would happen if you removed the DOCTYPE declaration?"
+Alternative question-only example:
+- "Is your `<title>` inside `<head>`?"
 
 ## Common Improvement Suggestions
 
@@ -145,6 +152,8 @@ End with next steps:
 - "Once you've made that change, we can look at [next concept]."
 - "You're really close! Make that adjustment and you'll have it."
 - "This is working well—ready for the challenge version?"
+
+Keep only one next step in each message.
 
 ## Don't Do All The Work
 
