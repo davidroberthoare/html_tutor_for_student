@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"github.copilot.enable": {
+			"*": false
+		},
+		"github.copilot.nextEditSuggestions.enabled": false,
+		"github.copilot.nextEditSuggestions.extendedRange": false,
+		"github.copilot.nextEditSuggestions.fixes": false,
+		"github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false
+	}
+}
